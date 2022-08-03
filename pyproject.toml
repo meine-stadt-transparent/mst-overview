@@ -5,14 +5,14 @@ description = "Generates the city overview for https://meine-stadt-transparent.d
 authors = ["konstin <konstin@mailbox.org>"]
 
 [tool.poetry.dependencies]
-python = ">=3.7.1"
+python = "^3.8"
 Jinja2 = "^3.0.1"
 pandas = "^1.0.3"
-pyyaml = "^5.3.1"
+pyyaml = "^6.0.0"
 mkdocs = "^1.1"
 
 [tool.poetry.dev-dependencies]
-black = "21.7b0"
+black = "22.6.0"
 
 [build-system]
 requires = ["poetry-core~=1.1.0"]

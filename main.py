@@ -31,10 +31,10 @@ def get_possible() -> DataFrame:
     current = read_csv_somacos(current_path)
 
     merged = pandas.merge(
-        current, back1, how="outer", on=["name", "ags"], suffixes=["0", "1"]
+        current, back1, how="outer", on=["name", "ags"], suffixes=("0", "1")
     )
     merged = pandas.merge(
-        merged, back2, how="outer", on=["name", "ags"], suffixes=["", "2"]
+        merged, back2, how="outer", on=["name", "ags"], suffixes=("", "2")
     )
 
     # If the current week was equal to one of the last weeks, take it as confirmed
@@ -54,11 +54,12 @@ def get_possible() -> DataFrame:
     print(
         f"Concensus with this week {len(confirmed_by_prior)}. Concensus in last two weeks: {len(last_two_concensus)}"
     )
-    return (
+    possible = (
         pandas.concat([confirmed_by_prior, last_two_concensus])
         .sort_values("name")
         .drop_duplicates()
     )
+    return possible
 
 
 def main():
