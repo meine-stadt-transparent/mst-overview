@@ -42,7 +42,7 @@ all_first = Counter(all_first)
 print(all_domains)
 print(all_first)
 
-#%%
+# %%
 
 import numpy
 import matplotlib.pyplot as plt
@@ -68,7 +68,7 @@ fig.tight_layout()
 plt.title("Visitors and actions per city in the last month")
 plt.show()
 
-#%%
+# %%
 
 import pandas
 

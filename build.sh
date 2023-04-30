@@ -1,7 +1,7 @@
 set -e
 
 if [ ! -d ".venv" ]; then
-  poetry install
+  pdm install
 fi
 
 if [ ! -d "node_modules" ]; then
@@ -17,7 +17,7 @@ if [ ! -d "resources" ]; then
 fi
 
 rm -rf dist
-poetry run ./main.py
+pdm run ./main.py
 npm run build
 cd ../meine-stadt-transparent
 cp Readme.md docs/index.md

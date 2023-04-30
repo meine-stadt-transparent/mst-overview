@@ -1,6 +1,7 @@
 .cache
 .parcel-cache
 .venv
+build
 dist
 index.html
 node_modules
