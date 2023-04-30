@@ -1,13 +1,7 @@
 name,vendor,ris,version,population,ags,wikidata_item,website,pages_visited,time,url,comment
-Aachen,cc-egov,https://ratsinfo.aachen.de/bi/allris.net.asp,,247380,05334002,http://www.wikidata.org/entity/Q1017,http://www.aachen.de/,3,9.250405624508858,https://aachen-transparent.de
 Bielefeld,somacos,https://anwendungen.bielefeld.de/bi/info.asp,5.0.8 bi (Layout 5),333786,05711000,http://www.wikidata.org/entity/Q2112,https://www.bielefeld.de/,5,2.613927131984383,https://bielefeld.meine-stadt-transparent.de,
-Dresden,somacos,https://ratsinfo.dresden.de/infobi.php,5.1.3 bi (Layout3),554649,14612000,http://www.wikidata.org/entity/Q1731,https://www.dresden.de/,11,81.11322246864438,https://dresden.meine-stadt-transparent.de,
-Köln,somacos,https://ratsinformation.stadt-koeln.de/infobi.asp,4.8.4 bi (Layout 4),1085664,05315000,http://www.wikidata.org/entity/Q365,http://www.stadt-koeln.de,10,106.67732773348689,https://köln.meine-stadt-transparent.de,
-Krefeld,,https://ris.krefeld.de/,,,,,,,,https://krefeld.meine-stadt-transparent.de,
-Lahr/Schwarzwald,steinberg,https://lahr.ratsinfomanagement.net/,5.0.5,47551,08317065,https://www.wikidata.org/wiki/Q7039,https://www.lahr.de/,,,https://transparent.lahr.codes,
-Landshut,somacos,https://ris.landshut.de/buergerinfo/infobi.php,4.9.6 bi (Layout 3),72404,09261000,http://www.wikidata.org/entity/Q3974,http://www.landshut.de,14,113.41558519750834,https://landshut-transparent.de,""
+Dresden,somacos,https://ratsinfo.dresden.de/info.asp,5.4.1 KP2 bi (Layout 6),,,,https://www.dresden.de/,,,https://dresden.meine-stadt-transparent.de,
 Magdeburg,somacos,https://ratsinfo.magdeburg.de/info.asp,5.0.8 bi (Layout 5),238697,15003000,http://www.wikidata.org/entity/Q1733,https://www.magdeburg.de/,4,39.78729133680463,https://magdeburg.meine-stadt-transparent.de,""
-Moers,somacos,https://sessionnet.krz.de/moers/bi/infobi.asp,4.9.7 bi (Layout4),103725,05170024,http://www.wikidata.org/entity/Q3132,https://www.moers.de/,5,40.62364086136222,https://moers.meine-stadt-transparent.de,
 München,,https://www.ris-muenchen.de/RII/RII/ris_startseite.jsp,,,,,,,,https://www.muenchen-transparent.de,Hinweis: München Transparent ist eine ältere Software
 Münster,somacos,https://www.stadt-muenster.de/sessionnet/sessionnetbi/infobi.php,4.6.6K4 bi (Layout3),314319,05515000,http://www.wikidata.org/entity/Q2742,https://www.muenster.de/,3,44.240288373082876,https://meine-stadt-transparent.codeformuenster.org,
 Oelde,somacos,https://sessionnet.krz.de/oelde/bi/info.asp,5.1.1 bi (Layout 5),29326,05570028,http://www.wikidata.org/entity/Q2752,http://www.oelde.de,5,44.58365900814533,https://oelde.meine-stadt-transparent.de,
